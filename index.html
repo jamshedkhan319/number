@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Only Personal</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- লগইন ফর্ম -->
+  <div id="login-container" class="container">
+    <h1>Only Personal Lock</h1>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="username">User Name</label>
+        <input type="text" id="username" placeholder="Type User Name" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="Type Password" required>
+      </div>
+      <button type="submit" class="btn">UNLOCK</button>
+    </form>
+  </div>
+
+  <!-- মোবাইল লিস্ট -->
+  <div id="list-container" class="container hidden">
+    <h1>Personal Number</h1>
+    <ul id="contact-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
